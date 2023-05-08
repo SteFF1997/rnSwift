@@ -12,7 +12,13 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		7699B88040F8A987B510C191 /* libPods-RNSwiftKotlin-RNSwiftKotlinTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNSwiftKotlin-RNSwiftKotlinTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		FAA896132A00091900CB4A84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA896122A00091900CB4A84 /* AppDelegate.swift */; };
+		FA3CE7A22A0398480013B7E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3CE7A02A0398480013B7E3 /* main.m */; };
+		FA3CE7A32A0398480013B7E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3CE7A02A0398480013B7E3 /* main.m */; };
+		FA3CE7A42A0398480013B7E3 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA3CE7A12A0398480013B7E3 /* AppDelegate.mm */; };
+		FA3CE7A52A0398480013B7E3 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA3CE7A12A0398480013B7E3 /* AppDelegate.mm */; };
+		FA9397F92A05414E0059B280 /* MyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9397F72A05414E0059B280 /* MyLib.framework */; };
+		FA9397FA2A0541500059B280 /* MyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9397F72A05414E0059B280 /* MyLib.framework */; };
+		FA9397FB2A0541500059B280 /* MyLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA9397F72A05414E0059B280 /* MyLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +30,20 @@
 			remoteInfo = RNSwiftKotlin;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAA8961B2A0023E000CB4A84 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FA9397FB2A0541500059B280 /* MyLib.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00E356EE1AD99517003FC87E /* RNSwiftKotlinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNSwiftKotlinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,8 +60,11 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNSwiftKotlin/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RNSwiftKotlin-RNSwiftKotlinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSwiftKotlin-RNSwiftKotlinTests.release.xcconfig"; path = "Target Support Files/Pods-RNSwiftKotlin-RNSwiftKotlinTests/Pods-RNSwiftKotlin-RNSwiftKotlinTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FA3CE79F2A0398480013B7E3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNSwiftKotlin/AppDelegate.h; sourceTree = "<group>"; };
+		FA3CE7A02A0398480013B7E3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNSwiftKotlin/main.m; sourceTree = "<group>"; };
+		FA3CE7A12A0398480013B7E3 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = RNSwiftKotlin/AppDelegate.mm; sourceTree = "<group>"; };
+		FA9397F72A05414E0059B280 /* MyLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MyLib.framework; path = "../../../Downloads/KML/build/fat-framework/debug/MyLib.framework"; sourceTree = "<group>"; };
 		FAA896112A00091800CB4A84 /* RNSwiftKotlin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNSwiftKotlin-Bridging-Header.h"; sourceTree = "<group>"; };
-		FAA896122A00091900CB4A84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9397F92A05414E0059B280 /* MyLib.framework in Frameworks */,
 				7699B88040F8A987B510C191 /* libPods-RNSwiftKotlin-RNSwiftKotlinTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9397FA2A0541500059B280 /* MyLib.framework in Frameworks */,
 				0C80B921A6F3F58F76C31292 /* libPods-RNSwiftKotlin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,6 +109,9 @@
 		13B07FAE1A68108700A75B9A /* RNSwiftKotlin */ = {
 			isa = PBXGroup;
 			children = (
+				FA3CE79F2A0398480013B7E3 /* AppDelegate.h */,
+				FA3CE7A12A0398480013B7E3 /* AppDelegate.mm */,
+				FA3CE7A02A0398480013B7E3 /* main.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
@@ -94,6 +122,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA9397F72A05414E0059B280 /* MyLib.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-RNSwiftKotlin.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNSwiftKotlin-RNSwiftKotlinTests.a */,
@@ -111,7 +140,6 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				FAA896122A00091900CB4A84 /* AppDelegate.swift */,
 				13B07FAE1A68108700A75B9A /* RNSwiftKotlin */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RNSwiftKotlinTests */,
@@ -181,6 +209,7 @@
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
 				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				FAA8961B2A0023E000CB4A84 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,6 +230,7 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 1430;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
@@ -401,6 +431,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3CE7A32A0398480013B7E3 /* main.m in Sources */,
+				FA3CE7A52A0398480013B7E3 /* AppDelegate.mm in Sources */,
 				00E356F31AD99517003FC87E /* RNSwiftKotlinTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,7 +441,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA896132A00091900CB4A84 /* AppDelegate.swift in Sources */,
+				FA3CE7A42A0398480013B7E3 /* AppDelegate.mm in Sources */,
+				FA3CE7A22A0398480013B7E3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,8 +461,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-RNSwiftKotlin-RNSwiftKotlinTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -448,6 +485,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNSwiftKotlinTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNSwiftKotlin.app/RNSwiftKotlin";
 			};
 			name = Debug;
@@ -456,9 +496,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-RNSwiftKotlin-RNSwiftKotlinTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = RNSwiftKotlinTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -473,6 +517,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNSwiftKotlinTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNSwiftKotlin.app/RNSwiftKotlin";
 			};
 			name = Release;
@@ -485,7 +531,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = RNSwiftKotlin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -512,7 +563,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = RNSwiftKotlin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -564,7 +620,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
