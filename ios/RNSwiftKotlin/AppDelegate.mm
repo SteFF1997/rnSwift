@@ -18,7 +18,7 @@
       // the main run loop.
     MyLibApi *myLibApi = [[MyLibApi alloc] init];
 
-      NSString *message = [myLibApi getMessage];
+    NSString *message = [myLibApi callSubscription];
     NSString * someString = @"Something To Print";
     NSLog(@"%@", someString);
     NSLog(@"%@", message);

@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class MyLibApollo_apiCompiledField, MyLibApollo_apiCustomScalarAdapters, MyLibExampleQueryCompanion, MyLibExampleQueryMe, MyLibExampleQueryData, MyLibLaunchListQueryCompanion, MyLibLaunchListQueryLaunches, MyLibLaunchListQueryData, MyLibLaunchListQueryLaunch, MyLibTripsBookedSubscriptionCompanion, MyLibTripsBookedSubscriptionData, MyLibGraphQLBooleanCompanion, MyLibApollo_apiCustomScalarType, MyLibGraphQLFloatCompanion, MyLibGraphQLIDCompanion, MyLibGraphQLIntCompanion, MyLibGraphQLStringCompanion, MyLibLaunchCompanion, MyLibApollo_apiObjectType, MyLibLaunchConnectionCompanion, MyLibQueryCompanion, MyLibSubscriptionCompanion, MyLibUserCompanion, MyLibExampleQuery_ResponseAdapter, MyLibExampleQuery_ResponseAdapterData, MyLibExampleQuery_ResponseAdapterMe, MyLibLaunchListQuery_ResponseAdapter, MyLibLaunchListQuery_ResponseAdapterData, MyLibLaunchListQuery_ResponseAdapterLaunch, MyLibLaunchListQuery_ResponseAdapterLaunches, MyLibTripsBookedSubscription_ResponseAdapter, MyLibTripsBookedSubscription_ResponseAdapterData, MyLibExampleQuerySelections, MyLibApollo_apiCompiledSelection, MyLibLaunchListQuerySelections, MyLibTripsBookedSubscriptionSelections, MyLibKotlinThrowable, MyLibKotlinArray<T>, MyLibKotlinException, MyLibApollo_apiExecutableVariables, MyLibApollo_apiCompiledFieldBuilder, MyLibApollo_apiCompiledArgument, MyLibApollo_apiCompiledCondition, MyLibApollo_apiCompiledType, MyLibApollo_apiJsonNumber, MyLibApollo_apiCustomScalarAdaptersKey, MyLibApollo_apiCustomScalarAdaptersBuilder, MyLibApollo_apiAdapterContext, MyLibApollo_apiCompiledNamedType, MyLibApollo_apiInterfaceType, MyLibApollo_apiObjectTypeBuilder, MyLibKotlinNothing, MyLibApollo_apiJsonReaderToken, MyLibApollo_apiAdapterContextBuilder, MyLibApollo_apiInterfaceTypeBuilder, MyLibKotlinEnumCompanion, MyLibKotlinEnum<E>, MyLibKotlinByteArray, MyLibOkioByteString, MyLibOkioBuffer, MyLibOkioTimeout, MyLibApollo_apiCustomTypeValue<T>, MyLibApollo_apiDeferredFragmentIdentifier, MyLibKotlinByteIterator, MyLibOkioByteStringCompanion, MyLibOkioBufferUnsafeCursor, MyLibOkioTimeoutCompanion, MyLibApollo_apiCustomTypeValueCompanion;
+@class MyLibApollo_apiCompiledField, MyLibApollo_apiCustomScalarAdapters, MyLibModelTodoConditionInput, MyLibApollo_apiOptional<__covariant V>, MyLibCreateTodoInput, MyLibMyMutationCompanion, MyLibMyMutation, MyLibMyMutationCreateTodo, MyLibMyMutationData, MyLibMyQueryCompanion, MyLibMyQueryListTodos, MyLibMyQueryData, MyLibMyQueryItem, MyLibMySubscriptionCompanion, MyLibMySubscriptionOnCreateTodo, MyLibMySubscriptionData, MyLibGraphQLBooleanCompanion, MyLibApollo_apiCustomScalarType, MyLibGraphQLFloatCompanion, MyLibGraphQLIDCompanion, MyLibGraphQLIntCompanion, MyLibGraphQLStringCompanion, MyLibKotlinEnumCompanion, MyLibKotlinEnum<E>, MyLibModelAttributeTypesCompanion, MyLibModelAttributeTypes, MyLibKotlinArray<T>, MyLibApollo_apiEnumType, MyLibModelSizeInput, MyLibModelStringInput, MyLibModelTodoConnectionCompanion, MyLibApollo_apiObjectType, MyLibMutationCompanion, MyLibQueryCompanion, MyLibSubscriptionCompanion, MyLibTodoCompanion, MyLibCreateTodoInput_InputAdapter, MyLibModelAttributeTypes_ResponseAdapter, MyLibModelSizeInput_InputAdapter, MyLibModelStringInput_InputAdapter, MyLibModelTodoConditionInput_InputAdapter, MyLibMyMutation_ResponseAdapter, MyLibMyMutation_ResponseAdapterCreateTodo, MyLibMyMutation_ResponseAdapterData, MyLibMyMutation_VariablesAdapter, MyLibMyQuery_ResponseAdapter, MyLibMyQuery_ResponseAdapterData, MyLibMyQuery_ResponseAdapterItem, MyLibMyQuery_ResponseAdapterListTodos, MyLibMySubscription_ResponseAdapter, MyLibMySubscription_ResponseAdapterData, MyLibMySubscription_ResponseAdapterOnCreateTodo, MyLibMyMutationSelections, MyLibApollo_apiCompiledSelection, MyLibMyQuerySelections, MyLibMySubscriptionSelections, MyLibKotlinThrowable, MyLibKotlinException, MyLibApollo_apiExecutableVariables, MyLibApollo_apiCompiledFieldBuilder, MyLibApollo_apiCompiledArgument, MyLibApollo_apiCompiledCondition, MyLibApollo_apiCompiledType, MyLibApollo_apiJsonNumber, MyLibApollo_apiCustomScalarAdaptersKey, MyLibApollo_apiCustomScalarAdaptersBuilder, MyLibApollo_apiAdapterContext, MyLibApollo_apiOptionalCompanion, MyLibApollo_apiCompiledNamedType, MyLibApollo_apiInterfaceType, MyLibApollo_apiObjectTypeBuilder, MyLibKotlinNothing, MyLibApollo_apiJsonReaderToken, MyLibApollo_apiAdapterContextBuilder, MyLibApollo_apiInterfaceTypeBuilder, MyLibKotlinByteArray, MyLibOkioByteString, MyLibOkioBuffer, MyLibOkioTimeout, MyLibApollo_apiCustomTypeValue<T>, MyLibApollo_apiDeferredFragmentIdentifier, MyLibKotlinByteIterator, MyLibOkioByteStringCompanion, MyLibOkioBufferUnsafeCursor, MyLibOkioTimeoutCompanion, MyLibApollo_apiCustomTypeValueCompanion;
 
-@protocol MyLibApollo_apiAdapter, MyLibApollo_apiJsonWriter, MyLibApollo_apiExecutable, MyLibApollo_apiOperation, MyLibApollo_apiQuery, MyLibApollo_apiExecutableData, MyLibApollo_apiOperationData, MyLibApollo_apiQueryData, MyLibApollo_apiSubscription, MyLibApollo_apiSubscriptionData, MyLibApollo_apiJsonReader, MyLibApollo_apiUpload, MyLibOkioCloseable, MyLibApollo_apiExecutionContextKey, MyLibApollo_apiExecutionContextElement, MyLibApollo_apiExecutionContext, MyLibKotlinIterator, MyLibOkioBufferedSink, MyLibApollo_apiCustomTypeAdapter, MyLibKotlinComparable, MyLibOkioSource, MyLibOkioSink, MyLibOkioBufferedSource;
+@protocol MyLibApollo_apiAdapter, MyLibApollo_apiJsonWriter, MyLibApollo_apiExecutable, MyLibApollo_apiOperation, MyLibApollo_apiMutation, MyLibApollo_apiExecutableData, MyLibApollo_apiOperationData, MyLibApollo_apiMutationData, MyLibApollo_apiQuery, MyLibApollo_apiQueryData, MyLibApollo_apiSubscription, MyLibApollo_apiSubscriptionData, MyLibKotlinComparable, MyLibApollo_apiJsonReader, MyLibApollo_apiUpload, MyLibOkioCloseable, MyLibApollo_apiExecutionContextKey, MyLibApollo_apiExecutionContextElement, MyLibApollo_apiExecutionContext, MyLibKotlinIterator, MyLibOkioBufferedSink, MyLibApollo_apiCustomTypeAdapter, MyLibOkioSource, MyLibOkioSink, MyLibOkioBufferedSource;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -165,18 +165,18 @@ __attribute__((swift_name("Apollo_apiOperation")))
 - (NSString *)name __attribute__((swift_name("name()")));
 @end
 
-__attribute__((swift_name("Apollo_apiQuery")))
-@protocol MyLibApollo_apiQuery <MyLibApollo_apiOperation>
+__attribute__((swift_name("Apollo_apiMutation")))
+@protocol MyLibApollo_apiMutation <MyLibApollo_apiOperation>
 @required
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ExampleQuery")))
-@interface MyLibExampleQuery : MyLibBase <MyLibApollo_apiQuery>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (class, readonly, getter=companion) MyLibExampleQueryCompanion *companion __attribute__((swift_name("companion")));
+__attribute__((swift_name("MyMutation")))
+@interface MyLibMyMutation : MyLibBase <MyLibApollo_apiMutation>
+- (instancetype)initWithCondition:(MyLibApollo_apiOptional<MyLibModelTodoConditionInput *> *)condition input:(MyLibCreateTodoInput *)input __attribute__((swift_name("init(condition:input:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MyLibMyMutationCompanion *companion __attribute__((swift_name("companion")));
 - (id<MyLibApollo_apiAdapter>)adapter __attribute__((swift_name("adapter()")));
+- (MyLibMyMutation *)doCopyCondition:(MyLibApollo_apiOptional<MyLibModelTodoConditionInput *> *)condition input:(MyLibCreateTodoInput *)input __attribute__((swift_name("doCopy(condition:input:)")));
 - (NSString *)document __attribute__((swift_name("document()")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -189,18 +189,32 @@ __attribute__((swift_name("ExampleQuery")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (BOOL)serializeVariablesWriter:(id<MyLibApollo_apiJsonWriter>)writer customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("serializeVariables(writer:customScalarAdapters:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) MyLibApollo_apiOptional<MyLibModelTodoConditionInput *> *condition __attribute__((swift_name("condition")));
+@property (readonly) MyLibCreateTodoInput *input __attribute__((swift_name("input")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ExampleQuery.Companion")))
-@interface MyLibExampleQueryCompanion : MyLibBase
+__attribute__((swift_name("MyMutation.Companion")))
+@interface MyLibMyMutationCompanion : MyLibBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MyLibExampleQueryCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) MyLibMyMutationCompanion *shared __attribute__((swift_name("shared")));
 @property (readonly) NSString *OPERATION_DOCUMENT __attribute__((swift_name("OPERATION_DOCUMENT")));
 @property (readonly) NSString *OPERATION_ID __attribute__((swift_name("OPERATION_ID")));
 @property (readonly) NSString *OPERATION_NAME __attribute__((swift_name("OPERATION_NAME")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MyMutation.CreateTodo")))
+@interface MyLibMyMutationCreateTodo : MyLibBase
+- (instancetype)initWithId:(NSString *)id __attribute__((swift_name("init(id:)"))) __attribute__((objc_designated_initializer));
+- (MyLibMyMutationCreateTodo *)doCopyId:(NSString *)id __attribute__((swift_name("doCopy(id:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
 @end
 
 __attribute__((swift_name("Apollo_apiExecutableData")))
@@ -213,40 +227,33 @@ __attribute__((swift_name("Apollo_apiOperationData")))
 @required
 @end
 
-__attribute__((swift_name("Apollo_apiQueryData")))
-@protocol MyLibApollo_apiQueryData <MyLibApollo_apiOperationData>
+__attribute__((swift_name("Apollo_apiMutationData")))
+@protocol MyLibApollo_apiMutationData <MyLibApollo_apiOperationData>
 @required
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ExampleQuery.Data")))
-@interface MyLibExampleQueryData : MyLibBase <MyLibApollo_apiQueryData>
-- (instancetype)initWithMe:(MyLibExampleQueryMe * _Nullable)me totalTripsBooked:(MyLibInt * _Nullable)totalTripsBooked __attribute__((swift_name("init(me:totalTripsBooked:)"))) __attribute__((objc_designated_initializer));
-- (MyLibExampleQueryData *)doCopyMe:(MyLibExampleQueryMe * _Nullable)me totalTripsBooked:(MyLibInt * _Nullable)totalTripsBooked __attribute__((swift_name("doCopy(me:totalTripsBooked:)")));
+__attribute__((swift_name("MyMutation.Data")))
+@interface MyLibMyMutationData : MyLibBase <MyLibApollo_apiMutationData>
+- (instancetype)initWithCreateTodo:(MyLibMyMutationCreateTodo * _Nullable)createTodo __attribute__((swift_name("init(createTodo:)"))) __attribute__((objc_designated_initializer));
+- (MyLibMyMutationData *)doCopyCreateTodo:(MyLibMyMutationCreateTodo * _Nullable)createTodo __attribute__((swift_name("doCopy(createTodo:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) MyLibExampleQueryMe * _Nullable me __attribute__((swift_name("me")));
-@property (readonly) MyLibInt * _Nullable totalTripsBooked __attribute__((swift_name("totalTripsBooked")));
+@property (readonly) MyLibMyMutationCreateTodo * _Nullable createTodo __attribute__((swift_name("createTodo")));
+@end
+
+__attribute__((swift_name("Apollo_apiQuery")))
+@protocol MyLibApollo_apiQuery <MyLibApollo_apiOperation>
+@required
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ExampleQuery.Me")))
-@interface MyLibExampleQueryMe : MyLibBase
-- (instancetype)initWithId:(NSString *)id __attribute__((swift_name("init(id:)"))) __attribute__((objc_designated_initializer));
-- (MyLibExampleQueryMe *)doCopyId:(NSString *)id __attribute__((swift_name("doCopy(id:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *id __attribute__((swift_name("id")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LaunchListQuery")))
-@interface MyLibLaunchListQuery : MyLibBase <MyLibApollo_apiQuery>
+__attribute__((swift_name("MyQuery")))
+@interface MyLibMyQuery : MyLibBase <MyLibApollo_apiQuery>
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (class, readonly, getter=companion) MyLibLaunchListQueryCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly, getter=companion) MyLibMyQueryCompanion *companion __attribute__((swift_name("companion")));
 - (id<MyLibApollo_apiAdapter>)adapter __attribute__((swift_name("adapter()")));
 - (NSString *)document __attribute__((swift_name("document()")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
@@ -263,50 +270,54 @@ __attribute__((swift_name("LaunchListQuery")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LaunchListQuery.Companion")))
-@interface MyLibLaunchListQueryCompanion : MyLibBase
+__attribute__((swift_name("MyQuery.Companion")))
+@interface MyLibMyQueryCompanion : MyLibBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MyLibLaunchListQueryCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) MyLibMyQueryCompanion *shared __attribute__((swift_name("shared")));
 @property (readonly) NSString *OPERATION_DOCUMENT __attribute__((swift_name("OPERATION_DOCUMENT")));
 @property (readonly) NSString *OPERATION_ID __attribute__((swift_name("OPERATION_ID")));
 @property (readonly) NSString *OPERATION_NAME __attribute__((swift_name("OPERATION_NAME")));
 @end
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LaunchListQuery.Data")))
-@interface MyLibLaunchListQueryData : MyLibBase <MyLibApollo_apiQueryData>
-- (instancetype)initWithLaunches:(MyLibLaunchListQueryLaunches *)launches __attribute__((swift_name("init(launches:)"))) __attribute__((objc_designated_initializer));
-- (MyLibLaunchListQueryData *)doCopyLaunches:(MyLibLaunchListQueryLaunches *)launches __attribute__((swift_name("doCopy(launches:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) MyLibLaunchListQueryLaunches *launches __attribute__((swift_name("launches")));
+__attribute__((swift_name("Apollo_apiQueryData")))
+@protocol MyLibApollo_apiQueryData <MyLibApollo_apiOperationData>
+@required
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LaunchListQuery.Launch")))
-@interface MyLibLaunchListQueryLaunch : MyLibBase
-- (instancetype)initWithId:(NSString *)id site:(NSString * _Nullable)site __attribute__((swift_name("init(id:site:)"))) __attribute__((objc_designated_initializer));
-- (MyLibLaunchListQueryLaunch *)doCopyId:(NSString *)id site:(NSString * _Nullable)site __attribute__((swift_name("doCopy(id:site:)")));
+__attribute__((swift_name("MyQuery.Data")))
+@interface MyLibMyQueryData : MyLibBase <MyLibApollo_apiQueryData>
+- (instancetype)initWithListTodos:(MyLibMyQueryListTodos * _Nullable)listTodos __attribute__((swift_name("init(listTodos:)"))) __attribute__((objc_designated_initializer));
+- (MyLibMyQueryData *)doCopyListTodos:(MyLibMyQueryListTodos * _Nullable)listTodos __attribute__((swift_name("doCopy(listTodos:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) MyLibMyQueryListTodos * _Nullable listTodos __attribute__((swift_name("listTodos")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MyQuery.Item")))
+@interface MyLibMyQueryItem : MyLibBase
+- (instancetype)initWithId:(NSString *)id __attribute__((swift_name("init(id:)"))) __attribute__((objc_designated_initializer));
+- (MyLibMyQueryItem *)doCopyId:(NSString *)id __attribute__((swift_name("doCopy(id:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
-@property (readonly) NSString * _Nullable site __attribute__((swift_name("site")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LaunchListQuery.Launches")))
-@interface MyLibLaunchListQueryLaunches : MyLibBase
-- (instancetype)initWithLaunches:(NSArray<id> *)launches __attribute__((swift_name("init(launches:)"))) __attribute__((objc_designated_initializer));
-- (MyLibLaunchListQueryLaunches *)doCopyLaunches:(NSArray<id> *)launches __attribute__((swift_name("doCopy(launches:)")));
+__attribute__((swift_name("MyQuery.ListTodos")))
+@interface MyLibMyQueryListTodos : MyLibBase
+- (instancetype)initWithItems:(NSArray<id> *)items __attribute__((swift_name("init(items:)"))) __attribute__((objc_designated_initializer));
+- (MyLibMyQueryListTodos *)doCopyItems:(NSArray<id> *)items __attribute__((swift_name("doCopy(items:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSArray<MyLibLaunchListQueryLaunch *> *)launchesFilterNotNull __attribute__((swift_name("launchesFilterNotNull()")));
+- (NSArray<MyLibMyQueryItem *> *)itemsFilterNotNull __attribute__((swift_name("itemsFilterNotNull()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSArray<id> *launches __attribute__((swift_name("launches")));
+@property (readonly) NSArray<id> *items __attribute__((swift_name("items")));
 @end
 
 __attribute__((swift_name("Apollo_apiSubscription")))
@@ -315,11 +326,11 @@ __attribute__((swift_name("Apollo_apiSubscription")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TripsBookedSubscription")))
-@interface MyLibTripsBookedSubscription : MyLibBase <MyLibApollo_apiSubscription>
+__attribute__((swift_name("MySubscription")))
+@interface MyLibMySubscription : MyLibBase <MyLibApollo_apiSubscription>
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (class, readonly, getter=companion) MyLibTripsBookedSubscriptionCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly, getter=companion) MyLibMySubscriptionCompanion *companion __attribute__((swift_name("companion")));
 - (id<MyLibApollo_apiAdapter>)adapter __attribute__((swift_name("adapter()")));
 - (NSString *)document __attribute__((swift_name("document()")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
@@ -336,12 +347,12 @@ __attribute__((swift_name("TripsBookedSubscription")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TripsBookedSubscription.Companion")))
-@interface MyLibTripsBookedSubscriptionCompanion : MyLibBase
+__attribute__((swift_name("MySubscription.Companion")))
+@interface MyLibMySubscriptionCompanion : MyLibBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MyLibTripsBookedSubscriptionCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) MyLibMySubscriptionCompanion *shared __attribute__((swift_name("shared")));
 @property (readonly) NSString *OPERATION_DOCUMENT __attribute__((swift_name("OPERATION_DOCUMENT")));
 @property (readonly) NSString *OPERATION_ID __attribute__((swift_name("OPERATION_ID")));
 @property (readonly) NSString *OPERATION_NAME __attribute__((swift_name("OPERATION_NAME")));
@@ -353,14 +364,38 @@ __attribute__((swift_name("Apollo_apiSubscriptionData")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TripsBookedSubscription.Data")))
-@interface MyLibTripsBookedSubscriptionData : MyLibBase <MyLibApollo_apiSubscriptionData>
-- (instancetype)initWithTripsBooked:(MyLibInt * _Nullable)tripsBooked __attribute__((swift_name("init(tripsBooked:)"))) __attribute__((objc_designated_initializer));
-- (MyLibTripsBookedSubscriptionData *)doCopyTripsBooked:(MyLibInt * _Nullable)tripsBooked __attribute__((swift_name("doCopy(tripsBooked:)")));
+__attribute__((swift_name("MySubscription.Data")))
+@interface MyLibMySubscriptionData : MyLibBase <MyLibApollo_apiSubscriptionData>
+- (instancetype)initWithOnCreateTodo:(MyLibMySubscriptionOnCreateTodo * _Nullable)onCreateTodo __attribute__((swift_name("init(onCreateTodo:)"))) __attribute__((objc_designated_initializer));
+- (MyLibMySubscriptionData *)doCopyOnCreateTodo:(MyLibMySubscriptionOnCreateTodo * _Nullable)onCreateTodo __attribute__((swift_name("doCopy(onCreateTodo:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) MyLibInt * _Nullable tripsBooked __attribute__((swift_name("tripsBooked")));
+@property (readonly) MyLibMySubscriptionOnCreateTodo * _Nullable onCreateTodo __attribute__((swift_name("onCreateTodo")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MySubscription.OnCreateTodo")))
+@interface MyLibMySubscriptionOnCreateTodo : MyLibBase
+- (instancetype)initWithId:(NSString *)id __attribute__((swift_name("init(id:)"))) __attribute__((objc_designated_initializer));
+- (MyLibMySubscriptionOnCreateTodo *)doCopyId:(NSString *)id __attribute__((swift_name("doCopy(id:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CreateTodoInput")))
+@interface MyLibCreateTodoInput : MyLibBase
+- (instancetype)initWithDescription:(MyLibApollo_apiOptional<NSString *> *)description id:(MyLibApollo_apiOptional<NSString *> *)id name:(NSString *)name __attribute__((swift_name("init(description:id:name:)"))) __attribute__((objc_designated_initializer));
+- (MyLibCreateTodoInput *)doCopyDescription:(MyLibApollo_apiOptional<NSString *> *)description id:(MyLibApollo_apiOptional<NSString *> *)id name:(NSString *)name __attribute__((swift_name("doCopy(description:id:name:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) MyLibApollo_apiOptional<NSString *> *description_ __attribute__((swift_name("description_")));
+@property (readonly) MyLibApollo_apiOptional<NSString *> *id __attribute__((swift_name("id")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -453,39 +488,146 @@ __attribute__((swift_name("GraphQLString.Companion")))
 @property (readonly) MyLibApollo_apiCustomScalarType *type __attribute__((swift_name("type")));
 @end
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Launch")))
-@interface MyLibLaunch : MyLibBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (class, readonly, getter=companion) MyLibLaunchCompanion *companion __attribute__((swift_name("companion")));
+__attribute__((swift_name("KotlinComparable")))
+@protocol MyLibKotlinComparable
+@required
+- (int32_t)compareToOther:(id _Nullable)other __attribute__((swift_name("compareTo(other:)")));
+@end
+
+__attribute__((swift_name("KotlinEnum")))
+@interface MyLibKotlinEnum<E> : MyLibBase <MyLibKotlinComparable>
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MyLibKotlinEnumCompanion *companion __attribute__((swift_name("companion")));
+- (int32_t)compareToOther:(E)other __attribute__((swift_name("compareTo(other:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly, getter=name_) NSString *name __attribute__((swift_name("name")));
+@property (readonly) int32_t ordinal __attribute__((swift_name("ordinal")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Launch.Companion")))
-@interface MyLibLaunchCompanion : MyLibBase
+__attribute__((swift_name("ModelAttributeTypes")))
+@interface MyLibModelAttributeTypes : MyLibKotlinEnum<MyLibModelAttributeTypes *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) MyLibModelAttributeTypesCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) MyLibModelAttributeTypes *Null __attribute__((swift_name("Null")));
+@property (class, readonly) MyLibModelAttributeTypes *binary __attribute__((swift_name("binary")));
+@property (class, readonly) MyLibModelAttributeTypes *binaryset __attribute__((swift_name("binaryset")));
+@property (class, readonly) MyLibModelAttributeTypes *bool_ __attribute__((swift_name("bool_")));
+@property (class, readonly) MyLibModelAttributeTypes *list __attribute__((swift_name("list")));
+@property (class, readonly) MyLibModelAttributeTypes *map __attribute__((swift_name("map")));
+@property (class, readonly) MyLibModelAttributeTypes *number __attribute__((swift_name("number")));
+@property (class, readonly) MyLibModelAttributeTypes *numberset __attribute__((swift_name("numberset")));
+@property (class, readonly) MyLibModelAttributeTypes *string __attribute__((swift_name("string")));
+@property (class, readonly) MyLibModelAttributeTypes *stringset __attribute__((swift_name("stringset")));
+@property (class, readonly) MyLibModelAttributeTypes *unknown __attribute__((swift_name("unknown")));
++ (MyLibKotlinArray<MyLibModelAttributeTypes *> *)values __attribute__((swift_name("values()")));
+@property (readonly) NSString *rawValue __attribute__((swift_name("rawValue")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ModelAttributeTypes.Companion")))
+@interface MyLibModelAttributeTypesCompanion : MyLibBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MyLibLaunchCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) MyLibModelAttributeTypesCompanion *shared __attribute__((swift_name("shared")));
+- (MyLibKotlinArray<MyLibModelAttributeTypes *> *)knownValues __attribute__((swift_name("knownValues()")));
+- (MyLibModelAttributeTypes *)safeValueOfRawValue:(NSString *)rawValue __attribute__((swift_name("safeValueOf(rawValue:)")));
+@property (readonly) MyLibApollo_apiEnumType *type __attribute__((swift_name("type")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ModelSizeInput")))
+@interface MyLibModelSizeInput : MyLibBase
+- (instancetype)initWithBetween:(MyLibApollo_apiOptional<NSArray<id> *> *)between eq:(MyLibApollo_apiOptional<MyLibInt *> *)eq ge:(MyLibApollo_apiOptional<MyLibInt *> *)ge gt:(MyLibApollo_apiOptional<MyLibInt *> *)gt le:(MyLibApollo_apiOptional<MyLibInt *> *)le lt:(MyLibApollo_apiOptional<MyLibInt *> *)lt ne:(MyLibApollo_apiOptional<MyLibInt *> *)ne __attribute__((swift_name("init(between:eq:ge:gt:le:lt:ne:)"))) __attribute__((objc_designated_initializer));
+- (MyLibModelSizeInput *)doCopyBetween:(MyLibApollo_apiOptional<NSArray<id> *> *)between eq:(MyLibApollo_apiOptional<MyLibInt *> *)eq ge:(MyLibApollo_apiOptional<MyLibInt *> *)ge gt:(MyLibApollo_apiOptional<MyLibInt *> *)gt le:(MyLibApollo_apiOptional<MyLibInt *> *)le lt:(MyLibApollo_apiOptional<MyLibInt *> *)lt ne:(MyLibApollo_apiOptional<MyLibInt *> *)ne __attribute__((swift_name("doCopy(between:eq:ge:gt:le:lt:ne:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) MyLibApollo_apiOptional<NSArray<id> *> *between __attribute__((swift_name("between")));
+@property (readonly) MyLibApollo_apiOptional<MyLibInt *> *eq __attribute__((swift_name("eq")));
+@property (readonly) MyLibApollo_apiOptional<MyLibInt *> *ge __attribute__((swift_name("ge")));
+@property (readonly) MyLibApollo_apiOptional<MyLibInt *> *gt __attribute__((swift_name("gt")));
+@property (readonly) MyLibApollo_apiOptional<MyLibInt *> *le __attribute__((swift_name("le")));
+@property (readonly) MyLibApollo_apiOptional<MyLibInt *> *lt __attribute__((swift_name("lt")));
+@property (readonly) MyLibApollo_apiOptional<MyLibInt *> *ne __attribute__((swift_name("ne")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ModelStringInput")))
+@interface MyLibModelStringInput : MyLibBase
+- (instancetype)initWithAttributeExists:(MyLibApollo_apiOptional<MyLibBoolean *> *)attributeExists attributeType:(MyLibApollo_apiOptional<MyLibModelAttributeTypes *> *)attributeType beginsWith:(MyLibApollo_apiOptional<NSString *> *)beginsWith between:(MyLibApollo_apiOptional<NSArray<id> *> *)between contains:(MyLibApollo_apiOptional<NSString *> *)contains eq:(MyLibApollo_apiOptional<NSString *> *)eq ge:(MyLibApollo_apiOptional<NSString *> *)ge gt:(MyLibApollo_apiOptional<NSString *> *)gt le:(MyLibApollo_apiOptional<NSString *> *)le lt:(MyLibApollo_apiOptional<NSString *> *)lt ne:(MyLibApollo_apiOptional<NSString *> *)ne notContains:(MyLibApollo_apiOptional<NSString *> *)notContains size:(MyLibApollo_apiOptional<MyLibModelSizeInput *> *)size __attribute__((swift_name("init(attributeExists:attributeType:beginsWith:between:contains:eq:ge:gt:le:lt:ne:notContains:size:)"))) __attribute__((objc_designated_initializer));
+- (MyLibModelStringInput *)doCopyAttributeExists:(MyLibApollo_apiOptional<MyLibBoolean *> *)attributeExists attributeType:(MyLibApollo_apiOptional<MyLibModelAttributeTypes *> *)attributeType beginsWith:(MyLibApollo_apiOptional<NSString *> *)beginsWith between:(MyLibApollo_apiOptional<NSArray<id> *> *)between contains:(MyLibApollo_apiOptional<NSString *> *)contains eq:(MyLibApollo_apiOptional<NSString *> *)eq ge:(MyLibApollo_apiOptional<NSString *> *)ge gt:(MyLibApollo_apiOptional<NSString *> *)gt le:(MyLibApollo_apiOptional<NSString *> *)le lt:(MyLibApollo_apiOptional<NSString *> *)lt ne:(MyLibApollo_apiOptional<NSString *> *)ne notContains:(MyLibApollo_apiOptional<NSString *> *)notContains size:(MyLibApollo_apiOptional<MyLibModelSizeInput *> *)size __attribute__((swift_name("doCopy(attributeExists:attributeType:beginsWith:between:contains:eq:ge:gt:le:lt:ne:notContains:size:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) MyLibApollo_apiOptional<MyLibBoolean *> *attributeExists __attribute__((swift_name("attributeExists")));
+@property (readonly) MyLibApollo_apiOptional<MyLibModelAttributeTypes *> *attributeType __attribute__((swift_name("attributeType")));
+@property (readonly) MyLibApollo_apiOptional<NSString *> *beginsWith __attribute__((swift_name("beginsWith")));
+@property (readonly) MyLibApollo_apiOptional<NSArray<id> *> *between __attribute__((swift_name("between")));
+@property (readonly) MyLibApollo_apiOptional<NSString *> *contains __attribute__((swift_name("contains")));
+@property (readonly) MyLibApollo_apiOptional<NSString *> *eq __attribute__((swift_name("eq")));
+@property (readonly) MyLibApollo_apiOptional<NSString *> *ge __attribute__((swift_name("ge")));
+@property (readonly) MyLibApollo_apiOptional<NSString *> *gt __attribute__((swift_name("gt")));
+@property (readonly) MyLibApollo_apiOptional<NSString *> *le __attribute__((swift_name("le")));
+@property (readonly) MyLibApollo_apiOptional<NSString *> *lt __attribute__((swift_name("lt")));
+@property (readonly) MyLibApollo_apiOptional<NSString *> *ne __attribute__((swift_name("ne")));
+@property (readonly) MyLibApollo_apiOptional<NSString *> *notContains __attribute__((swift_name("notContains")));
+@property (readonly) MyLibApollo_apiOptional<MyLibModelSizeInput *> *size __attribute__((swift_name("size")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ModelTodoConditionInput")))
+@interface MyLibModelTodoConditionInput : MyLibBase
+- (instancetype)initWithAnd:(MyLibApollo_apiOptional<NSArray<id> *> *)and_ description:(MyLibApollo_apiOptional<MyLibModelStringInput *> *)description name:(MyLibApollo_apiOptional<MyLibModelStringInput *> *)name not:(MyLibApollo_apiOptional<MyLibModelTodoConditionInput *> *)not_ or:(MyLibApollo_apiOptional<NSArray<id> *> *)or_ __attribute__((swift_name("init(and:description:name:not:or:)"))) __attribute__((objc_designated_initializer));
+- (MyLibModelTodoConditionInput *)doCopyAnd:(MyLibApollo_apiOptional<NSArray<id> *> *)and_ description:(MyLibApollo_apiOptional<MyLibModelStringInput *> *)description name:(MyLibApollo_apiOptional<MyLibModelStringInput *> *)name not:(MyLibApollo_apiOptional<MyLibModelTodoConditionInput *> *)not_ or:(MyLibApollo_apiOptional<NSArray<id> *> *)or_ __attribute__((swift_name("doCopy(and:description:name:not:or:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly, getter=and) MyLibApollo_apiOptional<NSArray<id> *> *and_ __attribute__((swift_name("and_")));
+@property (readonly) MyLibApollo_apiOptional<MyLibModelStringInput *> *description_ __attribute__((swift_name("description_")));
+@property (readonly) MyLibApollo_apiOptional<MyLibModelStringInput *> *name __attribute__((swift_name("name")));
+@property (readonly, getter=not) MyLibApollo_apiOptional<MyLibModelTodoConditionInput *> *not_ __attribute__((swift_name("not_")));
+@property (readonly, getter=or) MyLibApollo_apiOptional<NSArray<id> *> *or_ __attribute__((swift_name("or_")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ModelTodoConnection")))
+@interface MyLibModelTodoConnection : MyLibBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) MyLibModelTodoConnectionCompanion *companion __attribute__((swift_name("companion")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ModelTodoConnection.Companion")))
+@interface MyLibModelTodoConnectionCompanion : MyLibBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MyLibModelTodoConnectionCompanion *shared __attribute__((swift_name("shared")));
 @property (readonly) MyLibApollo_apiObjectType *type __attribute__((swift_name("type")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LaunchConnection")))
-@interface MyLibLaunchConnection : MyLibBase
+__attribute__((swift_name("Mutation")))
+@interface MyLibMutation : MyLibBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (class, readonly, getter=companion) MyLibLaunchConnectionCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly, getter=companion) MyLibMutationCompanion *companion __attribute__((swift_name("companion")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LaunchConnection.Companion")))
-@interface MyLibLaunchConnectionCompanion : MyLibBase
+__attribute__((swift_name("Mutation.Companion")))
+@interface MyLibMutationCompanion : MyLibBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MyLibLaunchConnectionCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) MyLibMutationCompanion *shared __attribute__((swift_name("shared")));
 @property (readonly) MyLibApollo_apiObjectType *type __attribute__((swift_name("type")));
 @end
 
@@ -526,30 +668,21 @@ __attribute__((swift_name("Subscription.Companion")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("User")))
-@interface MyLibUser : MyLibBase
+__attribute__((swift_name("Todo")))
+@interface MyLibTodo : MyLibBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (class, readonly, getter=companion) MyLibUserCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly, getter=companion) MyLibTodoCompanion *companion __attribute__((swift_name("companion")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("User.Companion")))
-@interface MyLibUserCompanion : MyLibBase
+__attribute__((swift_name("Todo.Companion")))
+@interface MyLibTodoCompanion : MyLibBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MyLibUserCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) MyLibTodoCompanion *shared __attribute__((swift_name("shared")));
 @property (readonly) MyLibApollo_apiObjectType *type __attribute__((swift_name("type")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ExampleQuery_ResponseAdapter")))
-@interface MyLibExampleQuery_ResponseAdapter : MyLibBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)exampleQuery_ResponseAdapter __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MyLibExampleQuery_ResponseAdapter *shared __attribute__((swift_name("shared")));
 @end
 
 __attribute__((swift_name("Apollo_apiAdapter")))
@@ -570,182 +703,339 @@ __attribute__((swift_name("Apollo_apiAdapter")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ExampleQuery_ResponseAdapter.Data")))
-@interface MyLibExampleQuery_ResponseAdapterData : MyLibBase <MyLibApollo_apiAdapter>
+__attribute__((swift_name("CreateTodoInput_InputAdapter")))
+@interface MyLibCreateTodoInput_InputAdapter : MyLibBase <MyLibApollo_apiAdapter>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)createTodoInput_InputAdapter __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MyLibCreateTodoInput_InputAdapter *shared __attribute__((swift_name("shared")));
+
+/**
+ * @note This method converts instances of IOException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (MyLibCreateTodoInput * _Nullable)fromJsonReader:(id<MyLibApollo_apiJsonReader>)reader customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("fromJson(reader:customScalarAdapters:)"))) __attribute__((swift_error(nonnull_error)));
+
+/**
+ * @note This method converts instances of IOException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)toJsonWriter:(id<MyLibApollo_apiJsonWriter>)writer customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters value:(MyLibCreateTodoInput *)value error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("toJson(writer:customScalarAdapters:value:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ModelAttributeTypes_ResponseAdapter")))
+@interface MyLibModelAttributeTypes_ResponseAdapter : MyLibBase <MyLibApollo_apiAdapter>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)modelAttributeTypes_ResponseAdapter __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MyLibModelAttributeTypes_ResponseAdapter *shared __attribute__((swift_name("shared")));
+
+/**
+ * @note This method converts instances of IOException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (MyLibModelAttributeTypes * _Nullable)fromJsonReader:(id<MyLibApollo_apiJsonReader>)reader customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("fromJson(reader:customScalarAdapters:)"))) __attribute__((swift_error(nonnull_error)));
+
+/**
+ * @note This method converts instances of IOException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)toJsonWriter:(id<MyLibApollo_apiJsonWriter>)writer customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters value:(MyLibModelAttributeTypes *)value error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("toJson(writer:customScalarAdapters:value:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ModelSizeInput_InputAdapter")))
+@interface MyLibModelSizeInput_InputAdapter : MyLibBase <MyLibApollo_apiAdapter>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)modelSizeInput_InputAdapter __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MyLibModelSizeInput_InputAdapter *shared __attribute__((swift_name("shared")));
+
+/**
+ * @note This method converts instances of IOException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (MyLibModelSizeInput * _Nullable)fromJsonReader:(id<MyLibApollo_apiJsonReader>)reader customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("fromJson(reader:customScalarAdapters:)"))) __attribute__((swift_error(nonnull_error)));
+
+/**
+ * @note This method converts instances of IOException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)toJsonWriter:(id<MyLibApollo_apiJsonWriter>)writer customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters value:(MyLibModelSizeInput *)value error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("toJson(writer:customScalarAdapters:value:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ModelStringInput_InputAdapter")))
+@interface MyLibModelStringInput_InputAdapter : MyLibBase <MyLibApollo_apiAdapter>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)modelStringInput_InputAdapter __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MyLibModelStringInput_InputAdapter *shared __attribute__((swift_name("shared")));
+
+/**
+ * @note This method converts instances of IOException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (MyLibModelStringInput * _Nullable)fromJsonReader:(id<MyLibApollo_apiJsonReader>)reader customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("fromJson(reader:customScalarAdapters:)"))) __attribute__((swift_error(nonnull_error)));
+
+/**
+ * @note This method converts instances of IOException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)toJsonWriter:(id<MyLibApollo_apiJsonWriter>)writer customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters value:(MyLibModelStringInput *)value error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("toJson(writer:customScalarAdapters:value:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ModelTodoConditionInput_InputAdapter")))
+@interface MyLibModelTodoConditionInput_InputAdapter : MyLibBase <MyLibApollo_apiAdapter>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)modelTodoConditionInput_InputAdapter __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MyLibModelTodoConditionInput_InputAdapter *shared __attribute__((swift_name("shared")));
+
+/**
+ * @note This method converts instances of IOException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (MyLibModelTodoConditionInput * _Nullable)fromJsonReader:(id<MyLibApollo_apiJsonReader>)reader customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("fromJson(reader:customScalarAdapters:)"))) __attribute__((swift_error(nonnull_error)));
+
+/**
+ * @note This method converts instances of IOException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)toJsonWriter:(id<MyLibApollo_apiJsonWriter>)writer customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters value:(MyLibModelTodoConditionInput *)value error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("toJson(writer:customScalarAdapters:value:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MyMutation_ResponseAdapter")))
+@interface MyLibMyMutation_ResponseAdapter : MyLibBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)myMutation_ResponseAdapter __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MyLibMyMutation_ResponseAdapter *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MyMutation_ResponseAdapter.CreateTodo")))
+@interface MyLibMyMutation_ResponseAdapterCreateTodo : MyLibBase <MyLibApollo_apiAdapter>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)createTodo __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MyLibMyMutation_ResponseAdapterCreateTodo *shared __attribute__((swift_name("shared")));
+
+/**
+ * @note This method converts instances of IOException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (MyLibMyMutationCreateTodo * _Nullable)fromJsonReader:(id<MyLibApollo_apiJsonReader>)reader customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("fromJson(reader:customScalarAdapters:)"))) __attribute__((swift_error(nonnull_error)));
+
+/**
+ * @note This method converts instances of IOException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)toJsonWriter:(id<MyLibApollo_apiJsonWriter>)writer customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters value:(MyLibMyMutationCreateTodo *)value error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("toJson(writer:customScalarAdapters:value:)")));
+@property (readonly) NSArray<NSString *> *RESPONSE_NAMES __attribute__((swift_name("RESPONSE_NAMES")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MyMutation_ResponseAdapter.Data")))
+@interface MyLibMyMutation_ResponseAdapterData : MyLibBase <MyLibApollo_apiAdapter>
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)data __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MyLibExampleQuery_ResponseAdapterData *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) MyLibMyMutation_ResponseAdapterData *shared __attribute__((swift_name("shared")));
 
 /**
  * @note This method converts instances of IOException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (MyLibExampleQueryData * _Nullable)fromJsonReader:(id<MyLibApollo_apiJsonReader>)reader customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("fromJson(reader:customScalarAdapters:)"))) __attribute__((swift_error(nonnull_error)));
+- (MyLibMyMutationData * _Nullable)fromJsonReader:(id<MyLibApollo_apiJsonReader>)reader customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("fromJson(reader:customScalarAdapters:)"))) __attribute__((swift_error(nonnull_error)));
 
 /**
  * @note This method converts instances of IOException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (BOOL)toJsonWriter:(id<MyLibApollo_apiJsonWriter>)writer customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters value:(MyLibExampleQueryData *)value error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("toJson(writer:customScalarAdapters:value:)")));
+- (BOOL)toJsonWriter:(id<MyLibApollo_apiJsonWriter>)writer customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters value:(MyLibMyMutationData *)value error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("toJson(writer:customScalarAdapters:value:)")));
 @property (readonly) NSArray<NSString *> *RESPONSE_NAMES __attribute__((swift_name("RESPONSE_NAMES")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ExampleQuery_ResponseAdapter.Me")))
-@interface MyLibExampleQuery_ResponseAdapterMe : MyLibBase <MyLibApollo_apiAdapter>
+__attribute__((swift_name("MyMutation_VariablesAdapter")))
+@interface MyLibMyMutation_VariablesAdapter : MyLibBase <MyLibApollo_apiAdapter>
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)me __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MyLibExampleQuery_ResponseAdapterMe *shared __attribute__((swift_name("shared")));
++ (instancetype)myMutation_VariablesAdapter __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MyLibMyMutation_VariablesAdapter *shared __attribute__((swift_name("shared")));
 
 /**
  * @note This method converts instances of IOException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (MyLibExampleQueryMe * _Nullable)fromJsonReader:(id<MyLibApollo_apiJsonReader>)reader customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("fromJson(reader:customScalarAdapters:)"))) __attribute__((swift_error(nonnull_error)));
+- (MyLibMyMutation * _Nullable)fromJsonReader:(id<MyLibApollo_apiJsonReader>)reader customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("fromJson(reader:customScalarAdapters:)"))) __attribute__((swift_error(nonnull_error)));
 
 /**
  * @note This method converts instances of IOException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (BOOL)toJsonWriter:(id<MyLibApollo_apiJsonWriter>)writer customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters value:(MyLibExampleQueryMe *)value error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("toJson(writer:customScalarAdapters:value:)")));
-@property (readonly) NSArray<NSString *> *RESPONSE_NAMES __attribute__((swift_name("RESPONSE_NAMES")));
+- (BOOL)toJsonWriter:(id<MyLibApollo_apiJsonWriter>)writer customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters value:(MyLibMyMutation *)value error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("toJson(writer:customScalarAdapters:value:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LaunchListQuery_ResponseAdapter")))
-@interface MyLibLaunchListQuery_ResponseAdapter : MyLibBase
+__attribute__((swift_name("MyQuery_ResponseAdapter")))
+@interface MyLibMyQuery_ResponseAdapter : MyLibBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)launchListQuery_ResponseAdapter __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MyLibLaunchListQuery_ResponseAdapter *shared __attribute__((swift_name("shared")));
++ (instancetype)myQuery_ResponseAdapter __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MyLibMyQuery_ResponseAdapter *shared __attribute__((swift_name("shared")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LaunchListQuery_ResponseAdapter.Data")))
-@interface MyLibLaunchListQuery_ResponseAdapterData : MyLibBase <MyLibApollo_apiAdapter>
+__attribute__((swift_name("MyQuery_ResponseAdapter.Data")))
+@interface MyLibMyQuery_ResponseAdapterData : MyLibBase <MyLibApollo_apiAdapter>
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)data __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MyLibLaunchListQuery_ResponseAdapterData *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) MyLibMyQuery_ResponseAdapterData *shared __attribute__((swift_name("shared")));
 
 /**
  * @note This method converts instances of IOException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (MyLibLaunchListQueryData * _Nullable)fromJsonReader:(id<MyLibApollo_apiJsonReader>)reader customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("fromJson(reader:customScalarAdapters:)"))) __attribute__((swift_error(nonnull_error)));
+- (MyLibMyQueryData * _Nullable)fromJsonReader:(id<MyLibApollo_apiJsonReader>)reader customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("fromJson(reader:customScalarAdapters:)"))) __attribute__((swift_error(nonnull_error)));
 
 /**
  * @note This method converts instances of IOException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (BOOL)toJsonWriter:(id<MyLibApollo_apiJsonWriter>)writer customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters value:(MyLibLaunchListQueryData *)value error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("toJson(writer:customScalarAdapters:value:)")));
+- (BOOL)toJsonWriter:(id<MyLibApollo_apiJsonWriter>)writer customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters value:(MyLibMyQueryData *)value error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("toJson(writer:customScalarAdapters:value:)")));
 @property (readonly) NSArray<NSString *> *RESPONSE_NAMES __attribute__((swift_name("RESPONSE_NAMES")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LaunchListQuery_ResponseAdapter.Launch")))
-@interface MyLibLaunchListQuery_ResponseAdapterLaunch : MyLibBase <MyLibApollo_apiAdapter>
+__attribute__((swift_name("MyQuery_ResponseAdapter.Item")))
+@interface MyLibMyQuery_ResponseAdapterItem : MyLibBase <MyLibApollo_apiAdapter>
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)launch __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MyLibLaunchListQuery_ResponseAdapterLaunch *shared __attribute__((swift_name("shared")));
++ (instancetype)item __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MyLibMyQuery_ResponseAdapterItem *shared __attribute__((swift_name("shared")));
 
 /**
  * @note This method converts instances of IOException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (MyLibLaunchListQueryLaunch * _Nullable)fromJsonReader:(id<MyLibApollo_apiJsonReader>)reader customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("fromJson(reader:customScalarAdapters:)"))) __attribute__((swift_error(nonnull_error)));
+- (MyLibMyQueryItem * _Nullable)fromJsonReader:(id<MyLibApollo_apiJsonReader>)reader customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("fromJson(reader:customScalarAdapters:)"))) __attribute__((swift_error(nonnull_error)));
 
 /**
  * @note This method converts instances of IOException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (BOOL)toJsonWriter:(id<MyLibApollo_apiJsonWriter>)writer customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters value:(MyLibLaunchListQueryLaunch *)value error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("toJson(writer:customScalarAdapters:value:)")));
+- (BOOL)toJsonWriter:(id<MyLibApollo_apiJsonWriter>)writer customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters value:(MyLibMyQueryItem *)value error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("toJson(writer:customScalarAdapters:value:)")));
 @property (readonly) NSArray<NSString *> *RESPONSE_NAMES __attribute__((swift_name("RESPONSE_NAMES")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LaunchListQuery_ResponseAdapter.Launches")))
-@interface MyLibLaunchListQuery_ResponseAdapterLaunches : MyLibBase <MyLibApollo_apiAdapter>
+__attribute__((swift_name("MyQuery_ResponseAdapter.ListTodos")))
+@interface MyLibMyQuery_ResponseAdapterListTodos : MyLibBase <MyLibApollo_apiAdapter>
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)launches __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MyLibLaunchListQuery_ResponseAdapterLaunches *shared __attribute__((swift_name("shared")));
++ (instancetype)listTodos __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MyLibMyQuery_ResponseAdapterListTodos *shared __attribute__((swift_name("shared")));
 
 /**
  * @note This method converts instances of IOException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (MyLibLaunchListQueryLaunches * _Nullable)fromJsonReader:(id<MyLibApollo_apiJsonReader>)reader customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("fromJson(reader:customScalarAdapters:)"))) __attribute__((swift_error(nonnull_error)));
+- (MyLibMyQueryListTodos * _Nullable)fromJsonReader:(id<MyLibApollo_apiJsonReader>)reader customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("fromJson(reader:customScalarAdapters:)"))) __attribute__((swift_error(nonnull_error)));
 
 /**
  * @note This method converts instances of IOException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (BOOL)toJsonWriter:(id<MyLibApollo_apiJsonWriter>)writer customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters value:(MyLibLaunchListQueryLaunches *)value error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("toJson(writer:customScalarAdapters:value:)")));
+- (BOOL)toJsonWriter:(id<MyLibApollo_apiJsonWriter>)writer customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters value:(MyLibMyQueryListTodos *)value error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("toJson(writer:customScalarAdapters:value:)")));
 @property (readonly) NSArray<NSString *> *RESPONSE_NAMES __attribute__((swift_name("RESPONSE_NAMES")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TripsBookedSubscription_ResponseAdapter")))
-@interface MyLibTripsBookedSubscription_ResponseAdapter : MyLibBase
+__attribute__((swift_name("MySubscription_ResponseAdapter")))
+@interface MyLibMySubscription_ResponseAdapter : MyLibBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)tripsBookedSubscription_ResponseAdapter __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MyLibTripsBookedSubscription_ResponseAdapter *shared __attribute__((swift_name("shared")));
++ (instancetype)mySubscription_ResponseAdapter __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MyLibMySubscription_ResponseAdapter *shared __attribute__((swift_name("shared")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TripsBookedSubscription_ResponseAdapter.Data")))
-@interface MyLibTripsBookedSubscription_ResponseAdapterData : MyLibBase <MyLibApollo_apiAdapter>
+__attribute__((swift_name("MySubscription_ResponseAdapter.Data")))
+@interface MyLibMySubscription_ResponseAdapterData : MyLibBase <MyLibApollo_apiAdapter>
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)data __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MyLibTripsBookedSubscription_ResponseAdapterData *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) MyLibMySubscription_ResponseAdapterData *shared __attribute__((swift_name("shared")));
 
 /**
  * @note This method converts instances of IOException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (MyLibTripsBookedSubscriptionData * _Nullable)fromJsonReader:(id<MyLibApollo_apiJsonReader>)reader customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("fromJson(reader:customScalarAdapters:)"))) __attribute__((swift_error(nonnull_error)));
+- (MyLibMySubscriptionData * _Nullable)fromJsonReader:(id<MyLibApollo_apiJsonReader>)reader customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("fromJson(reader:customScalarAdapters:)"))) __attribute__((swift_error(nonnull_error)));
 
 /**
  * @note This method converts instances of IOException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (BOOL)toJsonWriter:(id<MyLibApollo_apiJsonWriter>)writer customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters value:(MyLibTripsBookedSubscriptionData *)value error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("toJson(writer:customScalarAdapters:value:)")));
+- (BOOL)toJsonWriter:(id<MyLibApollo_apiJsonWriter>)writer customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters value:(MyLibMySubscriptionData *)value error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("toJson(writer:customScalarAdapters:value:)")));
 @property (readonly) NSArray<NSString *> *RESPONSE_NAMES __attribute__((swift_name("RESPONSE_NAMES")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ExampleQuerySelections")))
-@interface MyLibExampleQuerySelections : MyLibBase
+__attribute__((swift_name("MySubscription_ResponseAdapter.OnCreateTodo")))
+@interface MyLibMySubscription_ResponseAdapterOnCreateTodo : MyLibBase <MyLibApollo_apiAdapter>
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)exampleQuerySelections __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MyLibExampleQuerySelections *shared __attribute__((swift_name("shared")));
++ (instancetype)onCreateTodo __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MyLibMySubscription_ResponseAdapterOnCreateTodo *shared __attribute__((swift_name("shared")));
+
+/**
+ * @note This method converts instances of IOException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (MyLibMySubscriptionOnCreateTodo * _Nullable)fromJsonReader:(id<MyLibApollo_apiJsonReader>)reader customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("fromJson(reader:customScalarAdapters:)"))) __attribute__((swift_error(nonnull_error)));
+
+/**
+ * @note This method converts instances of IOException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)toJsonWriter:(id<MyLibApollo_apiJsonWriter>)writer customScalarAdapters:(MyLibApollo_apiCustomScalarAdapters *)customScalarAdapters value:(MyLibMySubscriptionOnCreateTodo *)value error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("toJson(writer:customScalarAdapters:value:)")));
+@property (readonly) NSArray<NSString *> *RESPONSE_NAMES __attribute__((swift_name("RESPONSE_NAMES")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MyMutationSelections")))
+@interface MyLibMyMutationSelections : MyLibBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)myMutationSelections __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MyLibMyMutationSelections *shared __attribute__((swift_name("shared")));
 @property (readonly) NSArray<MyLibApollo_apiCompiledSelection *> *__root __attribute__((swift_name("__root")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LaunchListQuerySelections")))
-@interface MyLibLaunchListQuerySelections : MyLibBase
+__attribute__((swift_name("MyQuerySelections")))
+@interface MyLibMyQuerySelections : MyLibBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)launchListQuerySelections __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MyLibLaunchListQuerySelections *shared __attribute__((swift_name("shared")));
++ (instancetype)myQuerySelections __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MyLibMyQuerySelections *shared __attribute__((swift_name("shared")));
 @property (readonly) NSArray<MyLibApollo_apiCompiledSelection *> *__root __attribute__((swift_name("__root")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TripsBookedSubscriptionSelections")))
-@interface MyLibTripsBookedSubscriptionSelections : MyLibBase
+__attribute__((swift_name("MySubscriptionSelections")))
+@interface MyLibMySubscriptionSelections : MyLibBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)tripsBookedSubscriptionSelections __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MyLibTripsBookedSubscriptionSelections *shared __attribute__((swift_name("shared")));
++ (instancetype)mySubscriptionSelections __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MyLibMySubscriptionSelections *shared __attribute__((swift_name("shared")));
 @property (readonly) NSArray<MyLibApollo_apiCompiledSelection *> *__root __attribute__((swift_name("__root")));
 @end
 
@@ -754,8 +1044,9 @@ __attribute__((swift_name("Api")))
 @interface MyLibApi : MyLibBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (NSString *)exampleGet __attribute__((swift_name("exampleGet()")));
-- (NSString *)getMessage __attribute__((swift_name("getMessage()")));
+- (NSString *)callMutationName:(NSString *)name __attribute__((swift_name("callMutation(name:)")));
+- (NSString *)callQuery __attribute__((swift_name("callQuery()")));
+- (NSString *)callSubscription __attribute__((swift_name("callSubscription()")));
 @end
 
 __attribute__((swift_name("KotlinThrowable")))
@@ -937,6 +1228,13 @@ __attribute__((swift_name("Apollo_apiCustomScalarAdapters")))
 @property (readonly) id<MyLibApollo_apiExecutionContextKey> key __attribute__((swift_name("key")));
 @end
 
+__attribute__((swift_name("Apollo_apiOptional")))
+@interface MyLibApollo_apiOptional<__covariant V> : MyLibBase
+@property (class, readonly, getter=companion) MyLibApollo_apiOptionalCompanion *companion __attribute__((swift_name("companion")));
+- (V _Nullable)getOrNull __attribute__((swift_name("getOrNull()")));
+- (V)getOrThrow __attribute__((swift_name("getOrThrow()")));
+@end
+
 __attribute__((swift_name("Apollo_apiCompiledType")))
 @interface MyLibApollo_apiCompiledType : MyLibBase
 - (MyLibApollo_apiCompiledNamedType *)leafType __attribute__((swift_name("leafType()"))) __attribute__((deprecated("Use rawType instead")));
@@ -955,6 +1253,35 @@ __attribute__((swift_name("Apollo_apiCustomScalarType")))
 @interface MyLibApollo_apiCustomScalarType : MyLibApollo_apiCompiledNamedType
 - (instancetype)initWithName:(NSString *)name className:(NSString *)className __attribute__((swift_name("init(name:className:)"))) __attribute__((objc_designated_initializer));
 @property (readonly) NSString *className __attribute__((swift_name("className")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinEnumCompanion")))
+@interface MyLibKotlinEnumCompanion : MyLibBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MyLibKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinArray")))
+@interface MyLibKotlinArray<T> : MyLibBase
++ (instancetype)arrayWithSize:(int32_t)size init:(T _Nullable (^)(MyLibInt *))init __attribute__((swift_name("init(size:init:)")));
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (T _Nullable)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (id<MyLibKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
+- (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
+@property (readonly) int32_t size __attribute__((swift_name("size")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Apollo_apiEnumType")))
+@interface MyLibApollo_apiEnumType : MyLibApollo_apiCompiledNamedType
+- (instancetype)initWithName:(NSString *)name __attribute__((swift_name("init(name:)"))) __attribute__((objc_designated_initializer)) __attribute__((deprecated("Use the primary constructor instead")));
+- (instancetype)initWithName:(NSString *)name values:(NSArray<NSString *> *)values __attribute__((swift_name("init(name:values:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSArray<NSString *> *values __attribute__((swift_name("values")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1068,18 +1395,6 @@ __attribute__((swift_name("Apollo_apiJsonReader")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (BOOL)skipValueAndReturnError:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("skipValue()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinArray")))
-@interface MyLibKotlinArray<T> : MyLibBase
-+ (instancetype)arrayWithSize:(int32_t)size init:(T _Nullable (^)(MyLibInt *))init __attribute__((swift_name("init(size:init:)")));
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (T _Nullable)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
-- (id<MyLibKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
-- (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
-@property (readonly) int32_t size __attribute__((swift_name("size")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1200,6 +1515,40 @@ __attribute__((swift_name("Apollo_apiAdapterContext")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Apollo_apiOptionalCompanion")))
+@interface MyLibApollo_apiOptionalCompanion : MyLibBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MyLibApollo_apiOptionalCompanion *shared __attribute__((swift_name("shared")));
+
+/**
+ * @note annotations
+ *   kotlin.jvm.JvmStatic
+*/
+- (MyLibApollo_apiOptional<id> *)absent __attribute__((swift_name("absent()")));
+
+/**
+ * @note annotations
+ *   kotlin.jvm.JvmStatic
+*/
+- (MyLibApollo_apiOptional<id> *)presentValue:(id _Nullable)value __attribute__((swift_name("present(value:)")));
+
+/**
+ * @note annotations
+ *   kotlin.jvm.JvmStatic
+*/
+- (MyLibApollo_apiOptional<id> *)presentIfNotNullValue:(id _Nullable)value __attribute__((swift_name("presentIfNotNull(value:)")));
+@end
+
+__attribute__((swift_name("KotlinIterator")))
+@protocol MyLibKotlinIterator
+@required
+- (BOOL)hasNext __attribute__((swift_name("hasNext_()")));
+- (id _Nullable)next __attribute__((swift_name("next()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Apollo_apiInterfaceType")))
 @interface MyLibApollo_apiInterfaceType : MyLibApollo_apiCompiledNamedType
 - (instancetype)initWithName:(NSString *)name keyFields:(NSArray<NSString *> *)keyFields implements:(NSArray<MyLibApollo_apiInterfaceType *> *)implements __attribute__((swift_name("init(name:keyFields:implements:)"))) __attribute__((objc_designated_initializer)) __attribute__((deprecated("Use the Builder instead")));
@@ -1225,24 +1574,6 @@ __attribute__((swift_name("KotlinNothing")))
 @interface MyLibKotlinNothing : MyLibBase
 @end
 
-__attribute__((swift_name("KotlinComparable")))
-@protocol MyLibKotlinComparable
-@required
-- (int32_t)compareToOther:(id _Nullable)other __attribute__((swift_name("compareTo(other:)")));
-@end
-
-__attribute__((swift_name("KotlinEnum")))
-@interface MyLibKotlinEnum<E> : MyLibBase <MyLibKotlinComparable>
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) MyLibKotlinEnumCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)compareToOther:(E)other __attribute__((swift_name("compareTo(other:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly, getter=name_) NSString *name __attribute__((swift_name("name")));
-@property (readonly) int32_t ordinal __attribute__((swift_name("ordinal")));
-@end
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Apollo_apiJsonReaderToken")))
 @interface MyLibApollo_apiJsonReaderToken : MyLibKotlinEnum<MyLibApollo_apiJsonReaderToken *>
@@ -1262,13 +1593,6 @@ __attribute__((swift_name("Apollo_apiJsonReaderToken")))
 @property (class, readonly) MyLibApollo_apiJsonReaderToken *endDocument __attribute__((swift_name("endDocument")));
 @property (class, readonly) MyLibApollo_apiJsonReaderToken *any __attribute__((swift_name("any")));
 + (MyLibKotlinArray<MyLibApollo_apiJsonReaderToken *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((swift_name("KotlinIterator")))
-@protocol MyLibKotlinIterator
-@required
-- (BOOL)hasNext __attribute__((swift_name("hasNext_()")));
-- (id _Nullable)next __attribute__((swift_name("next()")));
 @end
 
 __attribute__((swift_name("OkioSink")))
@@ -1342,15 +1666,6 @@ __attribute__((swift_name("Apollo_apiInterfaceType.Builder")))
 - (MyLibApollo_apiInterfaceTypeBuilder *)embeddedFieldsEmbeddedFields:(NSArray<NSString *> *)embeddedFields __attribute__((swift_name("embeddedFields(embeddedFields:)")));
 - (MyLibApollo_apiInterfaceTypeBuilder *)interfacesImplements:(NSArray<MyLibApollo_apiInterfaceType *> *)implements __attribute__((swift_name("interfaces(implements:)")));
 - (MyLibApollo_apiInterfaceTypeBuilder *)keyFieldsKeyFields:(NSArray<NSString *> *)keyFields __attribute__((swift_name("keyFields(keyFields:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinEnumCompanion")))
-@interface MyLibKotlinEnumCompanion : MyLibBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MyLibKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
 @end
 
 __attribute__((objc_subclassing_restricted))

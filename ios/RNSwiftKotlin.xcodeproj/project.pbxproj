@@ -16,9 +16,9 @@
 		FA3CE7A32A0398480013B7E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3CE7A02A0398480013B7E3 /* main.m */; };
 		FA3CE7A42A0398480013B7E3 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA3CE7A12A0398480013B7E3 /* AppDelegate.mm */; };
 		FA3CE7A52A0398480013B7E3 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA3CE7A12A0398480013B7E3 /* AppDelegate.mm */; };
-		FA9397F92A05414E0059B280 /* MyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9397F72A05414E0059B280 /* MyLib.framework */; };
-		FA9397FA2A0541500059B280 /* MyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9397F72A05414E0059B280 /* MyLib.framework */; };
-		FA9397FB2A0541500059B280 /* MyLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA9397F72A05414E0059B280 /* MyLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA9AD7AA2A094376000338A2 /* MyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9AD7A82A094376000338A2 /* MyLib.framework */; };
+		FA9AD7AB2A094378000338A2 /* MyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9AD7A82A094376000338A2 /* MyLib.framework */; };
+		FA9AD7AC2A094379000338A2 /* MyLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA9AD7A82A094376000338A2 /* MyLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FA9397FB2A0541500059B280 /* MyLib.framework in Embed Frameworks */,
+				FA9AD7AC2A094379000338A2 /* MyLib.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,7 +63,7 @@
 		FA3CE79F2A0398480013B7E3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNSwiftKotlin/AppDelegate.h; sourceTree = "<group>"; };
 		FA3CE7A02A0398480013B7E3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNSwiftKotlin/main.m; sourceTree = "<group>"; };
 		FA3CE7A12A0398480013B7E3 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = RNSwiftKotlin/AppDelegate.mm; sourceTree = "<group>"; };
-		FA9397F72A05414E0059B280 /* MyLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MyLib.framework; path = "../../../Downloads/KML/build/fat-framework/debug/MyLib.framework"; sourceTree = "<group>"; };
+		FA9AD7A82A094376000338A2 /* MyLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MyLib.framework; sourceTree = "<group>"; };
 		FAA896112A00091800CB4A84 /* RNSwiftKotlin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNSwiftKotlin-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA9397F92A05414E0059B280 /* MyLib.framework in Frameworks */,
+				FA9AD7AA2A094376000338A2 /* MyLib.framework in Frameworks */,
 				7699B88040F8A987B510C191 /* libPods-RNSwiftKotlin-RNSwiftKotlinTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA9397FA2A0541500059B280 /* MyLib.framework in Frameworks */,
+				FA9AD7AB2A094378000338A2 /* MyLib.framework in Frameworks */,
 				0C80B921A6F3F58F76C31292 /* libPods-RNSwiftKotlin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,7 +122,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FA9397F72A05414E0059B280 /* MyLib.framework */,
+				FA9AD7A82A094376000338A2 /* MyLib.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-RNSwiftKotlin.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNSwiftKotlin-RNSwiftKotlinTests.a */,
@@ -530,6 +530,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XX9Q37CU7;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -563,6 +564,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XX9Q37CU7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
